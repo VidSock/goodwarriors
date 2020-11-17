@@ -9,7 +9,7 @@ import PropTypes from 'prop-types'
 import Image from '../Image'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../Content'
-import Contact from '../Contact-inc'
+// import Contact from '../Contact-inc'
 import ScrollAnimation from 'react-animate-on-scroll'
 // import PopNewsletter from '../PopNewsletter'
 // import ArticleTemplate from '../ArticleTemplate'
@@ -96,7 +96,7 @@ const HomePageTemplate = ({
 }) => (
 <>
   <Helmet>
-    <title>{meta_title}</title>
+    <title>Good Warriors - A Dominations Alliance</title>
     <meta name='description' content={meta_description} />
     <html className="fullhead" />
   </Helmet>
@@ -130,7 +130,7 @@ const HomePageTemplate = ({
   
   
   
-  <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', paddingTop:'5%', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
+  {/* <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', paddingTop:'5%', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
   
   <div className="container innerpanel" style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)',}}>
      <img className="logo" src={logo} alt="Pick 6 Logo" style={{maxHeight:'300px'}} />
@@ -149,7 +149,7 @@ const HomePageTemplate = ({
         >
         a charity tournament
         </h3>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
 
         
@@ -170,11 +170,11 @@ const HomePageTemplate = ({
   
    
    
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Stars" filename="masters.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Stars" filename="good-warriors-header.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="andrews.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="good-warriors-header.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="pebble.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="good-warriors-header.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
 
     
@@ -212,7 +212,7 @@ const HomePageTemplate = ({
 
 
 
-<div className=' container split innerpanel' style={{width:'60%', padding:'2% 3%', borderRadius:'12px',}}>
+{/* <div className=' container split innerpanel' style={{width:'60%', padding:'2% 3%', borderRadius:'12px',}}>
 
 <h1 className='title' style={{textAlign:'',}}>{title}</h1>
         
@@ -229,10 +229,10 @@ const HomePageTemplate = ({
 
 
 
-</div>
+</div> */}
 
 
-<div className="sidebar split" style={{padding:'1%', width:'40%', marginLeft:'2%',}}>
+<div className="sidebar split" style={{padding:'1%', width:'100%', marginLeft:'2%',}}>
   
   <div style={{position:'sticky', top:'30px', }}>
 
@@ -245,304 +245,18 @@ const HomePageTemplate = ({
 
 
 
-<div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px', color:'#111', textAlign:'center'}}>
+{/* <div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px', color:'#111', textAlign:'center'}}>
  
 <h4>The Field: (a-z)</h4>
-<div style={{width:'auto', padding:'10px 20%', height:'350px', overflow:'scroll', color:'#111',}}>
+<div style={{width:'auto', padding:'10px 20%', height:'70vh', overflow:'scroll', color:'#111',}}>
 
-An, Byeong Hun
-<br /><hr /><br/>
-Ancer, Abraham
-<br /><hr /><br/>
-Aphibarnrat, Kiradech
-<br /><hr /><br/>
-Armour, Ryan
-<br /><hr /><br/>
-Baddeley, Aaron
-<br /><hr /><br/>
-Berger, Daniel
-<br /><hr /><br/>
-Bezuidenhout, Christiaan
-<br /><hr /><br/>
-Bradley, Keegan
-<br /><hr /><br/>
-Brown, Scott
-<br /><hr /><br/>
-Burgoon, Bronson
-<br /><hr /><br/>
-Burns, Sam
-<br /><hr /><br/>
-Cabrera Bello, Rafa
-<br /><hr /><br/>
-Cantlay, Patrick
-<br /><hr /><br/>
-Casey, Paul
-<br /><hr /><br/>
-Cauley, Bud
-<br /><hr /><br/>
-Champ, Cameron
-<br /><hr /><br/>
-Clark, Wyndham
-<br /><hr /><br/>
-Conners, Corey
-<br /><hr /><br/>
-Dahmen, Joel
-<br /><hr /><br/>
-Day, Jason
-<br /><hr /><br/>
-DeChambeau, Bryson
-<br /><hr /><br/>
-Dufner, Jason
-<br /><hr /><br/>
-Duncan, Tyler
-<br /><hr /><br/>
-English, Harris
-<br /><hr /><br/>
-Every, Matt
-<br /><hr /><br/>
-Finau, Tony
-<br /><hr /><br/>
-Fitzpatrick, Matthew
-<br /><hr /><br/>
-Fleetwood, Tommy
-<br /><hr /><br/>
-Fowler, Rickie
-<br /><hr /><br/>
-Frittelli, Dylan
-<br /><hr /><br/>
-Furyk, Jim
-<br /><hr /><br/>
-Garcia, Sergio
-<br /><hr /><br/>
-Garnett, Brice
-<br /><hr /><br/>
-Gay, Brian
-<br /><hr /><br/>
-Glover, Lucas
-<br /><hr /><br/>
-Gooch, Talor
-<br /><hr /><br/>
-Goosen, Retief
-<br /><hr /><br/>
-Grace, Branden
-<br /><hr /><br/>
-Griffin, Lanto
-<br /><hr /><br/>
-Grillo, Emiliano
-<br /><hr /><br/>
-Hadley, Chesson
-<br /><hr /><br/>
-Hadwin, Adam
-<br /><hr /><br/>
-Harman, Brian
-<br /><hr /><br/>
-Hatton, Tyrrell
-<br /><hr /><br/>
-Henley, Russell
-<br /><hr /><br/>
-Herman, Jim
-<br /><hr /><br/>
-Hoffman, Charley
-<br /><hr /><br/>
-Hoge, Tom
-<br /><hr /><br/>
-Holmes, J.B.
-<br /><hr /><br/>
-Homa, Max
-<br /><hr /><br/>
-Horschel, Billy
-<br /><hr /><br/>
-Hovland, Viktor
-<br /><hr /><br/>
-Howell III, Charles
-<br /><hr /><br/>
-Hubbard, Mark
-<br /><hr /><br/>
-Hughes, Mackenzie
-<br /><hr /><br/>
-Im, Sungjae
-<br /><hr /><br/>
-Janewattananond, Jazz
-<br /><hr /><br/>
-Johnson, Dustin
-<br /><hr /><br/>
-Johnson, Zach
-<br /><hr /><br/>
-Jones, Matt
-<br /><hr /><br/>
-Kang, Sung
-<br /><hr /><br/>
-Kim, Si Woo
-<br /><hr /><br/>
-Kisner, Kevin
-<br /><hr /><br/>
-Kizzire, Patton
-<br /><hr /><br/>
-Knox, Russell
-<br /><hr /><br/>
-Koepka, Brooks
-<br /><hr /><br/>
-Kokrak, Jason
-<br /><hr /><br/>
-Kuchar, Matt
-<br /><hr /><br/>
-Laird, Martin
-<br /><hr /><br/>
-Landry, Andrew
-<br /><hr /><br/>
-Lashley, Nate
-<br /><hr /><br/>
-Lee, Danny
-<br /><hr /><br/>
-Lee, Kyoung-Hoon
-<br /><hr /><br/>
-Leishman, Marc
-<br /><hr /><br/>
-List, Luke
-<br /><hr /><br/>
-Long, Adam
-<br /><hr /><br/>
-Lowry, Shane
-<br /><hr /><br/>
-Malnati, Peter
-<br /><hr /><br/>
-Matsuyama, Hideki
-<br /><hr /><br/>
-McCarthy, Denny
-<br /><hr /><br/>
-McDowell, Graeme
-<br /><hr /><br/>
-McIlroy, Rory
-<br /><hr /><br/>
-Merritt, Troy
-<br /><hr /><br/>
-Mickelson, Phil
-<br /><hr /><br/>
-Mitchell, Keith
-<br /><hr /><br/>
-Molinari, Francesco
-<br /><hr /><br/>
-Moore, Ryan
-<br /><hr /><br/>
-Morikawa, Collin
-<br /><hr /><br/>
-Muñoz, Sebastián
-<br /><hr /><br/>
-Na, Kevin
-<br /><hr /><br/>
-Niemann, Joaquin
-<br /><hr /><br/>
-Oosthuizen, Louis
-<br /><hr /><br/>
-Ortiz, Carlos
-<br /><hr /><br/>
-Palmer, Ryan
-<br /><hr /><br/>
-Pan, C.T.
-<br /><hr /><br/>
-Perez, Pat
-<br /><hr /><br/>
-Perez, Victor
-<br /><hr /><br/>
-Piercy, Scott
-<br /><hr /><br/>
-Poston, J.T.
-<br /><hr /><br/>
-Poulter, Ian
-<br /><hr /><br/>
-Putnam, Andrew
-<br /><hr /><br/>
-Rahm, Jon
-<br /><hr /><br/>
-Reavie, Chez
-<br /><hr /><br/>
-Reed, Patrick
-<br /><hr /><br/>
-Rodgers, Patrick
-<br /><hr /><br/>
-Rose, Justin
-<br /><hr /><br/>
-Ryder, Sam
-<br /><hr /><br/>
-Sabbatini, Rory
-<br /><hr /><br/>
-Schauffele, Xander
-<br /><hr /><br/>
-Scheffler, Scottie
-<br /><hr /><br/>
-Schenk, Adam
-<br /><hr /><br/>
-Scott, Adam
-<br /><hr /><br/>
-Simpson, Webb
-<br /><hr /><br/>
-Sloan, Roger
-<br /><hr /><br/>
-Smith, Cameron
-<br /><hr /><br/>
-Snedeker, Brandt
-<br /><hr /><br/>
-Spaun, J.J.
-<br /><hr /><br/>
-Spieth, Jordan
-<br /><hr /><br/>
-Stallings, Scott
-<br /><hr /><br/>
-Stanley, Kyle
-<br /><hr /><br/>
-Stenson, Henrik
-<br /><hr /><br/>
-Straka, Sepp
-<br /><hr /><br/>
-Streelman, Kevin
-<br /><hr /><br/>
-Stroud, Chris
-<br /><hr /><br/>
-Stuard, Brian
-<br /><hr /><br/>
-Taylor, Nick
-<br /><hr /><br/>
-Taylor, Vaughn
-<br /><hr /><br/>
-Thomas, Justin
-<br /><hr /><br/>
-Thompson, Michael
-<br /><hr /><br/>
-Todd, Brendon
-<br /><hr /><br/>
-Tringale, Cameron
-<br /><hr /><br/>
-Tway, Kevin
-<br /><hr /><br/>
-van Rooyen, Erik
-<br /><hr /><br/>
-Varner III, Harold
-<br /><hr /><br/>
-Vegas, Jhonattan
-<br /><hr /><br/>
-Walker, Jimmy
-<br /><hr /><br/>
-Wallace, Matt
-<br /><hr /><br/>
-Watney, Nick
-<br /><hr /><br/>
-Watson, Bubba
-<br /><hr /><br/>
-Wiesberger, Bernd
-<br /><hr /><br/>
-Willett, Danny
-<br /><hr /><br/>
-Wise, Aaron
-<br /><hr /><br/>
-Wolff, Matthew
-<br /><hr /><br/>
-Woodland, Gary
+
 
 </div>
 
 
 
-</div> 
+</div>  */}
 
 
 
@@ -562,9 +276,9 @@ Woodland, Gary
   
   </div>
   
-  <div className="outer" style={{position:'relative', zIndex:'1'}}>
+  {/* <div className="outer" style={{position:'relative', zIndex:'1'}}>
     <Contact className="container contactform" />
-  </div>
+  </div> */}
   
   <br />
   

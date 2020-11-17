@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import styled from 'styled-components'
 
 const CustomBox = styled.div`
-.players{color:#C82C10 !important;}
+.players{color: orange !important;}
 .honda{color:#666;}
 
 .honda:before{
@@ -66,42 +66,59 @@ const Footer = class extends React.Component {
  
 
 <br />
-<h2 style={{textAlign:'center', margin:'0 0 1rem 0',}}>2020 Tournaments</h2>
+<h2 style={{textAlign:'center', margin:'0 0 1rem 0',}}>Your Friendly Squad Leaders</h2>
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', margin:''}}>
 
-<li className="honda">Honda Classic<br /><br />Feb 27 -<br /> March 1<br /><br />@ PGA National</li>
+<li className="players">Zod<br /><br /><br /><br />Team Leader</li>
 
 
-<li className="players">The Players<br /><br />March<br /> 12 - 15<br /><br />@ TPC Sawgrass</li>
-
-<li className="anainpration">ANA Inspiration<br /><br />April<br /> 2 - 5<br /><br />@ Mission Hills</li>
-
-<li className="masters">The Masters<br /><br />April<br /> 9 - 12<br /><br />@ Augusta</li>
+<li className="player">Cabello<br /><br /><br /><br />Co-Leader</li>
 
 
-<li className="pga">The PGA<br /><br />May<br /> 14 - 17<br /><br />@ TPC Harding Park</li>
+<li className="player">Big Dan<br /><br /><br /><br />Co-Leader</li>
+
+<li className="player">DatKillerMouse<br /><br /><br /><br />Co-Leader</li>
 
 
+<li className="player">Dnoiy<br /><br /><br /><br />Co-Leader</li>
 
 
+<li className="player">Dave0101<br /><br /><br /><br />Co-Leader</li>
 
+<li className="player">Kspk<br /><br /><br /><br />Co-Leader</li>
 
+<li className="player">Jamie<br /><br /><br /><br />Co-Leader</li>
 
 
 </ul>
 
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', marginTop:'.5rem'}}>
+<li className="player">King<br /><br /><br /><br />Co-Leader</li>
 
-<li className="memorial">The Memorial<br /><br />June<br /> 4 - 7< br /><br />@ Muirfield</li>
-
-<li className="usopen">The U.S. Open<br /><br />June<br /> 18 - 21<br /><br />@ Winged Foot</li>
+<li className="player">Maci<br /><br /><br /><br />Co-Leader</li>
 
 
-<li className="theopen">The Open<br /><br />July<br /> 16 - 19<br /><br />@ Royal St. George</li>
+<li className="player">Sakis<br /><br /><br /><br />Co-Leader</li>
 
-<li className="senior">Senior British Open<br /><br />July<br /> 23 - 26<br /><br />@ Sunningdale</li>
 
-<li className="northern">Northern Trust<br /><br />August<br /> 13 - 16<br /><br />@ TPC Boston</li>
+<li className="player">Sam<br /><br /><br /><br />Co-Leader</li>
+
+
+<li className="player">Terrible Todd<br /><br /><br /><br />Co-Leader</li>
+
+
+<li className="player">Wanheda<br /><br /><br /><br />Co-Leader</li>
+
+
+<li className="player">Yuentao<br /><br /><br /><br />Co-Leader</li>
+
+
+
+
+
+<li className="honda">McDucky<br /><br /><br /><br />Co-Leader</li>
+
+
 </ul>
 
 <br />

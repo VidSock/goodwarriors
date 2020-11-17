@@ -76,7 +76,7 @@ export default class Contact extends React.Component {
               >
 
 <h3 className="" style={{textAlign:'center', fontSize:'180%',}}>
-Pick 6 Golfers
+Contact Us
 </h3>
 
                
