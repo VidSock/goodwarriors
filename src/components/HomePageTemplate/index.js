@@ -9,7 +9,7 @@ import PropTypes from 'prop-types'
 import Image from '../Image'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../Content'
-// import Contact from '../Contact-inc'
+import Contact from '../Contact-inc'
 import ScrollAnimation from 'react-animate-on-scroll'
 // import PopNewsletter from '../PopNewsletter'
 // import ArticleTemplate from '../ArticleTemplate'
@@ -294,9 +294,9 @@ const HomePageTemplate = ({
   
   </div>
   
-  {/* <div className="outer" style={{position:'relative', zIndex:'1'}}>
+  <div className="outer" style={{position:'relative', zIndex:'1'}}>
     <Contact className="container contactform" />
-  </div> */}
+  </div>
   
   <br />
   
