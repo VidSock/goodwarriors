@@ -130,15 +130,31 @@ const HomePageTemplate = ({
   
   
   
-  {/* <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', paddingTop:'5%', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
+  <ScrollAnimation animateIn="bounceInUp" delay={1400} offset={0} style={{position:'relative', paddingTop:'0', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
   
-  <div className="container innerpanel" style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)',}}>
-     <img className="logo" src={logo} alt="Pick 6 Logo" style={{maxHeight:'300px'}} />
-     </div>
+  {/* <div className="container " style={{ padding:'0', borderRadius:'10px', filter:'blur(0px)', fontSize:'', background:'orangered'}}> */}
+     
+
+  <h3
+          className="boom4 txtshadow-header mobile-txt"
+          style={{
+           color: 'white',
+            textAlign: 'center',
+            textTransform: 'normal', 
+            width:'80%',
+            background: 'orangered',
+            borderRadius: '12px'
+          }}
+        >
+        NOW RECRUITING
+        </h3>
+
+
+     {/* </div> */}
     </ScrollAnimation>
         
         
-  <ScrollAnimation animateIn="bounceInUp" delay={2050} style={{position:'', top:'0', right:'0',}}>
+  {/* <ScrollAnimation animateIn="bounceInUp" delay={2050} style={{position:'', bottom:'20vh', right:'0',}}>
         <h3
           className="boom4 txtshadow-header mobile-txt"
           style={{
@@ -147,7 +163,7 @@ const HomePageTemplate = ({
             textTransform: 'normal', 
           }}
         >
-        a charity tournament
+        NOW RECRUITING
         </h3>
         </ScrollAnimation> */}
 
@@ -172,9 +188,9 @@ const HomePageTemplate = ({
    
     <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Stars" filename="good-warriors-header.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="good-warriors-header.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="good-warriors-header2.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="good-warriors-header.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="good-warriors-header3.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
 
     
