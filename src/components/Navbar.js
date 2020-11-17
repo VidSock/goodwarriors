@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchBox from '../components/SearchBox'
-import logo from '../img/pick6golf-logo-square.svg'
+import logo from '../img/good-warriors-logo.png'
 import Headroom from "react-headroom"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
