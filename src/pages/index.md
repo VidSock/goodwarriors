@@ -1,17 +1,15 @@
 ---
 templateKey: home-page
 title: 'Operation Gratitude '
-heading: Supporting Our Veterans
+heading: We are now recruiting! Come join a good crew
 description: >-
-  Operation Gratitude sends 250,000+ individually addressed care packages to
-  Soldiers, Sailors, Airmen and Marines deployed overseas, to their children
-  left behind, and to New Recruit Graduates, Veterans, First Responders, and
-  Wounded Heroes and their Caregivers.  Each package contains food, hygiene,
-  entertainment and handmade items, as well as personal letters of support. A
-  Care Package brings joy to a Service Member stationed far from home or enables
-  a Veteran to feel appreciated -- many for the first time. Our Care Packages
-  for Wounded Heroes and Caregivers let them know that they are seen and that
-  their great sacrifices for us are honored.
+  Operation Gratitude is the name for our new multimedia and social marketing blitz! We are activaly looking for new members who want to be around good people and have good times. That's what Good Warriors is all about. 
+
+
+  If you would like to join, please open your Alliance Gate and in the search field enter "Good Warriors" (be sure to add the 's' at the end) and then hit the Join Button. 
+
+
+  Once you've joined please say "hi" and check in with everybody. We look forward to warring with you. 
 offerings:
   blurbs:
     - image: /img/coda-sass-wordpress-1600x339.jpg
@@ -19,7 +17,7 @@ offerings:
 testimonials:
   - author: aa
     quote: aa
-meta_title: Pick 6 Golf - Pick your best 6 golfers
-meta_description: 'A friendly contest dedicated to picking the best golfers in tournaments. '
+meta_title: Good Warriors - a Dominations Alliance
+meta_description: 'A friendly alliance dedicated to good people, good times and good wars. '
 ---
 

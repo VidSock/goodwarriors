@@ -212,7 +212,7 @@ const HomePageTemplate = ({
 
 
 
-{/* <div className=' container split innerpanel' style={{width:'60%', padding:'2% 3%', borderRadius:'12px',}}>
+<div className=' container split innerpanel' style={{width:'60%', padding:'2% 3%', borderRadius:'12px',}}>
 
 <h1 className='title' style={{textAlign:'',}}>{title}</h1>
         
@@ -229,10 +229,10 @@ const HomePageTemplate = ({
 
 
 
-</div> */}
+</div>
 
 
-<div className="sidebar split" style={{padding:'1%', width:'100%', marginLeft:'2%',}}>
+<div className="sidebar split" style={{padding:'1%', width:'40vw', marginLeft:'2%',}}>
   
   <div style={{position:'sticky', top:'30px', }}>
 
@@ -245,18 +245,20 @@ const HomePageTemplate = ({
 
 
 
-{/* <div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px', color:'#111', textAlign:'center'}}>
+<div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px', color:'#111', textAlign:'center'}}>
  
-<h4>The Field: (a-z)</h4>
-<div style={{width:'auto', padding:'10px 20%', height:'70vh', overflow:'scroll', color:'#111',}}>
 
+<div style={{width:'auto', padding: '0', height:'70vh', overflow:'scroll', color:'#111',}}>
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This weekend is our Great Emu War Event! Enjoy 25% off Mill, Market, Oil Refinery, and War Academy upgrades as well as 33% off Armored Car, Ranged Siege, Mortar Infantry, and Ranged Cavalry troop upgrades from 15:00 UTC 11/13 until 15:00 UTC 11/16! <a href="https://t.co/KKSB3BRPMh">pic.twitter.com/KKSB3BRPMh</a></p>&mdash; DomiNations (@PlayDomiNations) <a href="https://twitter.com/PlayDomiNations/status/1327280182508593152?ref_src=twsrc%5Etfw">November 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 </div>
 
 
 
-</div>  */}
+</div> 
 
 
 

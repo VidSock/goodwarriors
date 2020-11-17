@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import styled from 'styled-components'
 
 const CustomBox = styled.div`
-.players{color: orange !important;}
+.players{color: coral !important;}
 .honda{color:#666;}
 
 .honda:before{
@@ -85,7 +85,7 @@ const Footer = class extends React.Component {
 
 <li className="player">Dave0101<br /><br /><br /><br />Co-Leader</li>
 
-<li className="player">Kspk<br /><br /><br /><br />Co-Leader</li>
+{/* <li className="player">Kspk<br /><br /><br /><br />Co-Leader</li> */}
 
 <li className="player">Jamie<br /><br /><br /><br />Co-Leader</li>
 
@@ -116,7 +116,7 @@ const Footer = class extends React.Component {
 
 
 
-<li className="honda">McDucky<br /><br /><br /><br />Co-Leader</li>
+{/* <li className="honda">McDucky<br /><br /><br /><br />Co-Leader</li> */}
 
 
 </ul>
