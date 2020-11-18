@@ -1,32 +1,24 @@
 ---
 templateKey: article-page
-title: 'UiUx Project : 1 [domain sales page]'
-slug: domain-sales
-date: 2020-01-12T20:46:33.494Z
-cover: /img/uiux-project-1.jpg
+title: We go to war!
+slug: we-go-to-war
+date: 2020-11-18T11:21:45.155Z
+cover: /img/dominations-world-war-logo.jpg.webp
 tags:
-  - domain
-  - html
-  - css
-  - mock
-  - article
-meta_title: Domain sales page demo mock up
-meta_description: >-
-  How to profit off unused domains by pitching ads and or attempting to sell the
-  unused domain name through a passive pitch based on the domain name.
+  - war
+meta_title: We go to war!
+meta_description: How we go to war
 ---
-This project came about recently because I was coming to terms with the domain name hoarding tendencies I have come to live with.
+We war back-to-back. We always try to include as many members as possible. But due to team size limits we sometimes have to drop or add people as needed. 
 
-Over the years and whenever I am brainstorming a new business idea, one of the first topics that comes up, is the online marketing possibilities involved.
+If you haven't been to war with us before, please post your war base in the game chat and then be sure to check that your war availability is checked in the alliance gate window. If your war box isn't checked, you will not be included in the war. 
 
-Because of this nature, I tend to quickly snap up $12 domain names in the business concept stage of brainstorming.
+We have no rules as to whom you attack. We only ask that you do your best and go after a target that you believe you can get 5 stars on. 
 
-I always figure, if the project doesn’t pan out, I’ll let the name go and move on.
+We also recommend that you go to war with as many coalitions and troop tactics as you can afford. We all strive to win and this is really needed nowadays as most alliances are using them. 
 
-The problem here, of course, is that I hardly ever let the names go like I thought I would, and I amass vast quantities of domain names on my account.
+As for Stronghold Troops, they are not required but are always appreciated! We often use SH troops in close battles and to help round out our defense. If you have extra troop cards, please feel free to donate wherever you see fit. 
 
-This got me to thinking about how I could curtail my domain name problem, and I came up with idea of doing what GoDaddy and other domain name registers already do. They profit off the domains being unused by pitching ads and or attempt to sell the unused domain name.
+Always use both of your attacks. Wars can be won or lost by very close margins and you never know when that second attack will make the difference. Also, all of our members work hard to bring coalitions and donate troops. Because of this, it can be insulting if you don't bother to use your attacks. Besides, you should want the 2nd attack so that you get a better victory chest. 
 
-“Why couldn’t I do this”, I thought? Well, after some thinking about the issue some more, I have come up with a basic solution that can easily be deployed and possibly drive traffic on selling old and unused domain names.
-
-You can see my results of this project, here:[Unused Domain Sales Page Template](https://toddlambert.com/domains/).
+Lastly, we are all here to have fun. Please have fun and don't take anything too seriously.
