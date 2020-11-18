@@ -4,7 +4,7 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://goodwarriors.netlify.app',
+  URL: NETLIFY_SITE_URL = 'https://goodwarriors.site',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
