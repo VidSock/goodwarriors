@@ -226,7 +226,7 @@ const HomePageTemplate = ({
 
 
 
-<div style={{margin:'0 2vw', borderRadius:'42px', padding:'10px'}}>
+<div style={{margin:'0 2vw', borderRadius:'42px', padding:'', border:'12px solid #222', overflow:'hidden'}}>
 <Image className="" alt="Kneel before Zod" filename="stats-banner.jpg" />
 </div>
 
@@ -253,9 +253,10 @@ const HomePageTemplate = ({
 {description}
  <br />
 
-<p>Find us on Discord - here's our channel: &nbsp; <a href="https://discord.com/channels/557588878425587712/557588878425587714">Good Warriors Discord Channels</a>
+<p>Find us on Discord - here's our channel: &nbsp; <a href="https://discord.com/channels/557588878425587712/557588878425587714">Good Warriors Discord Channel</a>
 </p>
 
+ <br /> <br />
 <iframe src="https://discord.com/widget?id=557588878425587712&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 
