@@ -150,6 +150,7 @@ const HomePageTemplate = ({
 <div className="outer">
 
 
+
 <div className="image-wrap" style={{position:'relative', overflow:'hidden', paddingTop:'0', borderBottom:'0px solid #222', borderRight:'0rem solid #dd4400', borderLeft:'0rem solid #dd4400', }}>
   
 
@@ -225,7 +226,9 @@ const HomePageTemplate = ({
 
 
 
-
+<div style={{margin:'0 2vw', borderRadius:'12px', overflow:'hidden', padding:'10px'}}>
+  <Image className="" alt="Kneel before Zod" filename="stats-banner.jpg" style={{borderRadius:'12px'}} />
+</div>
 
 
 
@@ -248,7 +251,12 @@ const HomePageTemplate = ({
 </div>
 <br />
 {description}
- 
+ <br />
+
+<p>Find us on Discord - here's our channel: &nbsp; <a href="https://discord.com/channels/557588878425587712/557588878425587714">Good Warriors Discord Channels</a>
+</p>
+
+
 
 
 
