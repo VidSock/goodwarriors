@@ -35,6 +35,10 @@ const CustomBox = styled.div`
 // top:0 !important;
 // }
 
+
+.statbox img{border-radius:30px; border:3px solid #111;}
+
+
 .image-wrap {
   width: 100%;
   height: 100vh;
@@ -226,8 +230,8 @@ const HomePageTemplate = ({
 
 
 
-<div style={{margin:'0 2vw', borderRadius:'42px', padding:'', border:'12px solid #222', overflow:'hidden', boxShadow: '0px 1px 6px 1px black'}}>
-<Image className="" alt="Kneel before Zod" filename="stats-banner.jpg" />
+<div className="statbox" style={{margin:'0 2vw', borderRadius:'42px', padding:'', border:'12px solid #222', overflow:'hidden', boxShadow: '0px 1px 6px 1px black'}}>
+<Image className="statbanner" alt="Kneel before Zod" filename="stats-banner.jpg" />
 </div>
 
 
