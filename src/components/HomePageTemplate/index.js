@@ -297,12 +297,22 @@ const HomePageTemplate = ({
 
   
   </div>
+
+  
   
   {/* <div className="outer" style={{position:'relative', zIndex:'1'}}>
     
     <Contact className="container contactform" />
   </div> */}
   
+  <br />
+  <Image className="statbanner" alt="Kneel before Zod" filename="our-laws.jpg" />
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
   <br />
   <Install />
   
