@@ -97,7 +97,7 @@ const Footer = class extends React.Component {
 <li className="player">Sam<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 
-<li className="player">Todd<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
+<li className="player">Terrible Todd<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 
 <li className="player">Wanheda<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>

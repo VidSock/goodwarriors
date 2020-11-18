@@ -58,7 +58,7 @@ export default class Contact extends React.Component {
     return (
       
         <section className="section">
-          <div className="container innerpanel" style={{padding: '0 1rem',}}>
+          <div className="container innerpanel" style={{padding: '0 1rem'}}>
             <div className="content" style={{padding: '0 0 15px 0'}}>
 
               
@@ -74,7 +74,7 @@ export default class Contact extends React.Component {
                 onSubmit={this.handleSubmit}
                 id="popcontact-form"
               >
-                <h3 id="contact" name="contact" style={{padding: '.5rem 0', textAlign: 'center', fontSize: '150%',}}>Contact Todd<br /><span style={{fontSize: '80%', display: 'none',}}>Please fill out the form below:</span></h3>
+                <h3 id="contact" name="contact" style={{padding: '.5rem 0', textAlign: 'center', fontSize: '150%',}}>Sign Up<br /><span style={{fontSize: '80%', display: 'none',}}>Please fill out the form below:</span></h3>
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                 
                 <div hidden>
@@ -107,10 +107,10 @@ export default class Contact extends React.Component {
                       required={true}
                       placeholder="your@email.com"
                     />
-                    <label htmlFor="attachment" style={{padding: '0', margin: '0',}}>Upload file:</label>
+                    <label htmlFor="attachment" style={{padding: '0', margin: '0',}}>Upload Screenshot of Base:</label>
                     <div className="upload" style={{ border: '0px solid', padding: '12px', borderRadius: '5px', boxShadow: '0px 0px 1px 1px #999', color: '#999',}}>
                     <label htmlFor="attachment" style={{padding: '0', margin: '0 2.5% 0 0', float: 'left', width: '58%', color: '#333',}}>
-                    ZIP files preferred
+                    jpg and png files preferred
                     <input
                         className="file-input hidden"
                         type="file"
@@ -125,7 +125,7 @@ export default class Contact extends React.Component {
 
                 <div className="field half right">
 <label className="label" htmlFor={'message'} style={{padding: '0', margin: '0',}}>
-                    Your message
+                    Tell us about your base
                   </label>
                     <textarea
                       className="textarea"
@@ -141,17 +141,17 @@ export default class Contact extends React.Component {
                   </div>
                   </div>
                 
-                <div style={{fontSize: '70%', padding: '0 3%', margin: '0 0 1rem 0', textAlign: 'center',}}> <label htmlFor={'consent'}><input type="checkbox"  name={'consent'} required={true} style={{transform: 'scale(2)', margin: '0 10px 0 0', padding: '0',}} />  I want to communicate by email or text.</label></div>
+                {/* <div style={{fontSize: '70%', padding: '0 3%', margin: '0 0 1rem 0', textAlign: 'center',}}> <label htmlFor={'consent'}><input type="checkbox"  name={'consent'} required={false} style={{transform: 'scale(2)', margin: '0 10px 0 0', padding: '0',}} />  I want to communicate by email or text.</label></div> */}
                
 <div className="special grad"  style={{color:'#fff', textDecoration:'none', display:'flex', justifyContent:'center', position:'relative', width:'230px', margin:'0 auto', padding:'0 1rem 0px 1rem',}}>
                 
-                <input type="submit" value="Send Message" className=" grad" style={{background:'transparent', border:'none', color:'#fff', cursor:'pointer', width:'90%', float:'left',}} />
+                <input type="submit" value="Sign Up Now" className=" grad" style={{background:'transparent', border:'none', color:'#fff', cursor:'pointer', width:'90%', float:'left',}} />
                 <FaEnvelope style={{position: 'relative', top: '5px', right: '-5px', color: '#fff', fontSize: '120%',}} />
                 
                 </div>
                 
-                <div style={{fontSize: '70%', padding: '0px 3%', marginTop:'20px', textAlign: 'center',}}><a style={{textAlign: 'center', paddingTop: '0', paddingBottom: '0', textDecoration: 'underline', color:'inherit',}} href="/privacy">Privacy Policy</a>
-                </div>
+                {/* <div style={{fontSize: '70%', padding: '0px 3%', marginTop:'20px', textAlign: 'center',}}><a style={{textAlign: 'center', paddingTop: '0', paddingBottom: '0', textDecoration: 'underline', color:'inherit',}} href="/privacy">Privacy Policy</a>
+                </div> */}
                 
                 
                 

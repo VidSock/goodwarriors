@@ -10,6 +10,7 @@ import Image from '../Image'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../Content'
 import Contact from '../Contact-inc'
+import PopContact from '../PopContact'
 import ScrollAnimation from 'react-animate-on-scroll'
 // import PopNewsletter from '../PopNewsletter'
 // import ArticleTemplate from '../ArticleTemplate'
@@ -81,6 +82,13 @@ hr{
 
 
 
+
+
+
+
+
+
+
 `
 
 
@@ -113,45 +121,44 @@ const HomePageTemplate = ({
 {/* <Intro2 /> */}
 {/* <Intro3 /> */}
 
+<PopContact />
+
+
+<ScrollAnimation animateIn="bounceInUp" delay={1400} offset={0} style={{position:'absolute', top:'0', padding:'20px', width:'100%', textAlign:'center', zIndex:'1'}}>
+
+
+<div style={{ display:'flex', flexDirection:'column', padding:'0 10vw'}}>
+
+
+        
+        {/*  */}
+
+        <label className="modal-btn grad boom4 txtshadow-header" htmlFor="modal-toggle" style={{position:'relative', textShadow: '1px 0px 4px #333', paddingRight:'', borderRadius:'12px', color:'#fff'}}>JOIN US! - <span style={{textDecoration:'underline'}}>Sign Up Now</span> </label> 
+        
+
+
+
+
+</div>
+  
+  </ScrollAnimation>
+
+
 
 
 
 <div className="outer">
-  
+
+
 <div className="image-wrap" style={{position:'relative', overflow:'hidden', paddingTop:'0', borderBottom:'0px solid #222', borderRight:'0rem solid #dd4400', borderLeft:'0rem solid #dd4400', }}>
   
 
- <div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'1',}}>
+ <div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh',  padding:'0 0 0 0', border:'0px solid red', zIndex:'1',}}>
   
   
 
    
 
-  
-  
-  
-  <ScrollAnimation animateIn="bounceInUp" delay={1400} offset={0} style={{position:'relative', paddingTop:'0', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
-  
-  {/* <div className="container " style={{ padding:'0', borderRadius:'10px', filter:'blur(0px)', fontSize:'', background:'orangered'}}> */}
-     
-
-  <h3
-          className="boom4 txtshadow-header mobile-txt"
-          style={{
-           color: 'white',
-            textAlign: 'center',
-            textTransform: 'normal', 
-            width:'80%',
-            background: 'orangered',
-            borderRadius: '12px'
-          }}
-        >
-        NOW RECRUITING
-        </h3>
-
-
-     {/* </div> */}
-    </ScrollAnimation>
         
         
   {/* <ScrollAnimation animateIn="bounceInUp" delay={2050} style={{position:'', bottom:'20vh', right:'0',}}>
@@ -294,9 +301,10 @@ const HomePageTemplate = ({
   
   </div>
   
-  <div className="outer" style={{position:'relative', zIndex:'1'}}>
+  {/* <div className="outer" style={{position:'relative', zIndex:'1'}}>
+    
     <Contact className="container contactform" />
-  </div>
+  </div> */}
   
   <br />
   

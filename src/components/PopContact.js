@@ -121,7 +121,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ed1ea', end
       pointer-events: auto;
       cursor: auto;
       visibility: visible; 
-      overflow: scroll;
+      overflow: hidden;
   
       @media (max-width: 400px) { left: 50px; }                   
     }  
