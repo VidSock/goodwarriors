@@ -226,7 +226,7 @@ const HomePageTemplate = ({
 
 
 
-<div style={{margin:'0 2vw', borderRadius:'42px', padding:'', border:'12px solid #222', overflow:'hidden'}}>
+<div style={{margin:'0 2vw', borderRadius:'42px', padding:'', border:'12px solid #222', overflow:'hidden', boxShadow: '0px 1px 6px 1px black'}}>
 <Image className="" alt="Kneel before Zod" filename="stats-banner.jpg" />
 </div>
 
@@ -273,9 +273,9 @@ const HomePageTemplate = ({
 
  
 
-<div style={{width:'auto', padding: '0', height:'', color:'#111',}}>
+<div style={{width:'auto', padding: '0', height:'', color:'#111', borderRadius:'12px', boxShadow: '0px 1px 12px 1px black'}}>
 
-<a class="twitter-timeline" data-height="800" data-theme="dark" href="https://twitter.com/PlayDomiNations?ref_src=twsrc%5Etfw">Tweets by PlayDomiNations</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a style={{}} class="twitter-timeline" data-height="800" data-theme="dark" href="https://twitter.com/PlayDomiNations?ref_src=twsrc%5Etfw">Tweets by PlayDomiNations</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 </div>
