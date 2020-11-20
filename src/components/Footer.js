@@ -52,7 +52,10 @@ const Footer = class extends React.Component {
 <li className="player leader">Zod<br /><Image className="slider" alt="Todd Stars" filename="zod.jpg" style={{backgroundSize:'cover',}} />Team Leader</li>
 
 
-<li className="player">Cabello<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
+<li className="player">Andrukas<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
+
+
+<li className="player">Cabelo<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 
 <li className="player">Big Dan<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
@@ -63,7 +66,6 @@ const Footer = class extends React.Component {
 <li className="player">Dnoiy<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 
-<li className="player">Dave0101<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 </ul>
 
@@ -72,6 +74,8 @@ const Footer = class extends React.Component {
 
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', marginTop:'.5rem'}}>
 
+
+<li className="player">Dave0101<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 <li className="player">Jamie<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
@@ -81,9 +85,11 @@ const Footer = class extends React.Component {
 
 <li className="player">Maci<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
-<li className="player">Ravi<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
+<li className="player">MuMMbLeS<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
-<li className="player">Sakis<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
+
+
+
 
 
 
@@ -92,18 +98,20 @@ const Footer = class extends React.Component {
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', marginTop:'.5rem'}}>
 
 
+<li className="player">Ravi<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
+<li className="player">Sakis<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 <li className="player">Sam<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 
-<li className="player">Terrible Todd<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
+<li className="player">Terrible Todd<br /><br /><Image className="slider" alt="Good Warrior" filename="terrible-todd.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 
 <li className="player">Wanheda<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 
-<li className="player">Yuentao<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
+<li className="player">Yuentao<br /><br /><Image className="slider" alt="Good Warrior" filename="yuentao.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
 
 
 
@@ -111,7 +119,7 @@ const Footer = class extends React.Component {
 
 
 
-<li className="honda player">McDucky<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li>
+{/* <li className="honda player">McDucky<br /><br /><Image className="slider" alt="Good Warrior" filename="hero-mask.png" style={{backgroundSize:'cover', zIndex:'', }} /></li> */}
 
 
 </ul>
