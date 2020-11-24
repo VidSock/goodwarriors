@@ -7,6 +7,8 @@ import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
 import Image from '../Image'
+
+import PostCard from '../PostCard'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../Content'
 import Contact from '../Contact-inc'
@@ -226,7 +228,9 @@ const HomePageTemplate = ({
 
 
 
-
+<div className="statbox" style={{margin:'0 2vw', borderRadius:'42px', padding:'', border:'0px solid #222', backgroundColor:' rgba(25, 30, 35, 0.91)', overflow:'hidden', boxShadow: '0px 1px 6px 1px black', padding:'2rem', textAlign:'center', margin:'0 0 2rem 0', fontSize:'200%'}}>
+<a className="txtshadow-3d" href="./blog/">READ OUR BLOG HERE !</a>
+</div>
 
 
 
@@ -262,6 +266,9 @@ const HomePageTemplate = ({
 
  <br /> <br />
 <iframe src="https://discord.com/widget?id=557588878425587712&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+
+
 
 
 
